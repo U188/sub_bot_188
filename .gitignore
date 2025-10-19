@@ -1,0 +1,38 @@
+# Python cache/compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.venv*/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Project runtime artifacts
+all_proxies.txt
+bot_config.json
+ollama_apis.txt
+uploads/
+data/
+
+# Generated export files
+scan_nodes_*.txt
+scan_logins_*.txt
+all_proxies_*.txt
+selected_nodes_*.txt
+selected_proxies_*.txt
+
+# Logs
+*.log
